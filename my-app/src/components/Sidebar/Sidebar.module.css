@@ -1,0 +1,15 @@
+.nav {
+    background-color: rgb(148, 242, 245);
+    padding: 30px;
+    grid: s;
+}
+.item a {
+    display: inline-block;
+    text-decoration: none;
+    margin: 0px 0px 15px 0px;
+    font-size: 24px;
+    color: #000;
+}
+.item .active {
+    color: rgb(151, 141, 47);
+}

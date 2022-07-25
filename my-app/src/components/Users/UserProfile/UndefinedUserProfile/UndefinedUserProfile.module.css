@@ -1,0 +1,31 @@
+.circle {
+    position: absolute;
+    bottom: 50%;
+    left: 52%;
+    width: 200px;
+    height: 200px;
+    border: 1px solid #888;
+    border-radius: 50%;
+    text-align: center;
+
+    background-image: radial-gradient(
+        circle,
+        #ffffff,
+        #e8e8e8,
+        #d1d1d1,
+        #bababa,
+        #a4a4a4,
+        #8e8e8e,
+        #797979,
+        #646464,
+        #4b4b4b,
+        #333333,
+        #1d1d1d,
+        #000000
+    );
+}
+.text {
+    position: absolute;
+    top: 30%;
+    left: 0;
+}

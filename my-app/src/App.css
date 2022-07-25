@@ -1,0 +1,23 @@
+
+.app-wrapper{
+  min-height: 100vh;
+  width: 100%;
+  margin: 0 auto;
+
+  display: grid;
+
+  grid-template-rows: 60px 1fr auto;
+  grid-template-columns: 2fr 12fr 2fr;
+  grid-template-areas: 
+  "h h h"
+  "n c s"
+  "f f f";
+
+}
+.app-wrapper-content {
+  grid-area: c;
+}
+a{
+  text-decoration: none; 
+}
+

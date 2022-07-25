@@ -1,0 +1,22 @@
+.dialog{
+    line-height: 60px;
+}
+.dialog a {
+    color: #000;
+    text-decoration: none;
+    vertical-align: middle;
+    font-size: 20px;
+
+}
+.dialog .active {
+    color: rgb(151, 131, 64);
+}
+.dialog img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    vertical-align: middle;
+    margin: 0px 10px 0px 0px;
+    
+}
+

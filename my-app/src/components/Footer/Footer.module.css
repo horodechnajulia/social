@@ -1,0 +1,6 @@
+.footer {
+    background-color: rgb(148, 245, 148);
+    padding: 30px;
+
+    grid-area: f ;
+}

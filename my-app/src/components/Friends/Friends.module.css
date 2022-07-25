@@ -1,0 +1,10 @@
+.friends {
+    background-color: rgba(23, 34, 54, 0.3);
+    padding: 1px 10px 10px 10px;
+    height: 100%;
+}
+.title {
+    text-align: center;
+    font-size: 24px;
+}
+

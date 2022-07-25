@@ -1,0 +1,40 @@
+.usersPage {
+    height: 100%;
+    display: grid;
+    grid-template-areas: "u i";
+    grid-template-columns: minmax(200px, 30%) auto;
+}
+
+.users {
+    height: 100%;
+    grid-area: u;
+    background-color: rgba(23, 34, 54, 0.3);
+}
+.title {
+    text-align: center;
+    font-size: 24px;
+}
+.items {
+    padding: 1px 10px 10px 10px;
+    
+    
+}
+
+.userInfo {
+    height: 100%;
+    background-color: rgb(136, 136, 136);
+    grid-area: i;
+}
+.pages {
+    width: 100%;
+    padding: 5px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+span {
+    padding: 3px;
+}
+.selectedPage {
+    font-weight: 700;
+    font-size: 20px;
+}

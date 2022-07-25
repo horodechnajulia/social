@@ -1,0 +1,41 @@
+.item {
+    width: 100%;
+    height: 60px;
+    border: 1px solid #000;
+    background-color: rgb(231, 223, 223);
+    overflow: hidden;
+    border-radius: 10px;
+    display: inline-block;
+    margin: 0 auto;
+    margin: 0px 0px 5px 0px;
+    position: relative;
+}
+.user {
+}
+.ava {
+    display: inline-block;
+    height: 100%;
+    width: 25%;
+    overflow: hidden;
+}
+.ava img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.name {
+    position: absolute;
+    color: #000;
+    display: inline-block;
+    font-size: 14px;
+    top: 0;
+}
+.button{
+    border: none;
+    position: absolute;
+    bottom: 0;
+    background-color: rgb(41, 96, 160);
+    color: #fff;
+    left: 25%;
+    border-radius: 0px 5px 0px 0px;
+}

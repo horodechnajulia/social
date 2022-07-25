@@ -1,0 +1,44 @@
+.item,
+.userItem {
+    position: relative;
+    max-width: 80%;
+    
+}
+.userItem {
+    margin: 0px 0px 0px auto;
+}
+.message,
+.userMessage {
+    overflow: hidden;
+    border: 1px solid #000;
+    display: inline-block;
+    background-color: #fff;
+    border-radius: 5px;
+    padding: 10px;
+    font-size: 16px;
+}
+
+.message {
+    background-color: rgba(243, 97, 97, 0.301);
+    margin: 0px 0px 10px 25px;
+}
+.userMessage {
+    background-color: rgba(71, 165, 79, 0.322);
+    margin: 0px 25px 10px 0px;
+}
+
+.userAva img,
+.ava img {
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    position: absolute;
+    top: 0;
+}
+
+.ava img {
+    left: -15px;
+}
+.userAva img {
+    right: -15px;
+}
